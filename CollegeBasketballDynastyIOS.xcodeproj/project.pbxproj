@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3595616F2E25EB7E0014A288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359561572E25EB7D0014A288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3595615E2E25EB7D0014A288;
+			remoteInfo = CollegeBasketballDynastyIOS;
+		};
+		359561792E25EB7E0014A288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359561572E25EB7D0014A288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3595615E2E25EB7D0014A288;
+			remoteInfo = CollegeBasketballDynastyIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3595615F2E25EB7D0014A288 /* CollegeBasketballDynastyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeBasketballDynastyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3595616E2E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeBasketballDynastyIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		359561782E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeBasketballDynastyIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		359561612E25EB7D0014A288 /* CollegeBasketballDynastyIOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CollegeBasketballDynastyIOS;
+			sourceTree = "<group>";
+		};
+		359561712E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CollegeBasketballDynastyIOSTests;
+			sourceTree = "<group>";
+		};
+		3595617B2E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CollegeBasketballDynastyIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3595615C2E25EB7D0014A288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3595616B2E25EB7E0014A288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359561752E25EB7E0014A288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359561562E25EB7D0014A288 = {
+			isa = PBXGroup;
+			children = (
+				359561612E25EB7D0014A288 /* CollegeBasketballDynastyIOS */,
+				359561712E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests */,
+				3595617B2E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests */,
+				359561602E25EB7D0014A288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359561602E25EB7D0014A288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3595615F2E25EB7D0014A288 /* CollegeBasketballDynastyIOS.app */,
+				3595616E2E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests.xctest */,
+				359561782E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3595615E2E25EB7D0014A288 /* CollegeBasketballDynastyIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359561822E25EB7E0014A288 /* Build configuration list for PBXNativeTarget "CollegeBasketballDynastyIOS" */;
+			buildPhases = (
+				3595615B2E25EB7D0014A288 /* Sources */,
+				3595615C2E25EB7D0014A288 /* Frameworks */,
+				3595615D2E25EB7D0014A288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				359561612E25EB7D0014A288 /* CollegeBasketballDynastyIOS */,
+			);
+			name = CollegeBasketballDynastyIOS;
+			packageProductDependencies = (
+			);
+			productName = CollegeBasketballDynastyIOS;
+			productReference = 3595615F2E25EB7D0014A288 /* CollegeBasketballDynastyIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3595616D2E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359561852E25EB7E0014A288 /* Build configuration list for PBXNativeTarget "CollegeBasketballDynastyIOSTests" */;
+			buildPhases = (
+				3595616A2E25EB7E0014A288 /* Sources */,
+				3595616B2E25EB7E0014A288 /* Frameworks */,
+				3595616C2E25EB7E0014A288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359561702E25EB7E0014A288 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				359561712E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests */,
+			);
+			name = CollegeBasketballDynastyIOSTests;
+			packageProductDependencies = (
+			);
+			productName = CollegeBasketballDynastyIOSTests;
+			productReference = 3595616E2E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		359561772E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359561882E25EB7E0014A288 /* Build configuration list for PBXNativeTarget "CollegeBasketballDynastyIOSUITests" */;
+			buildPhases = (
+				359561742E25EB7E0014A288 /* Sources */,
+				359561752E25EB7E0014A288 /* Frameworks */,
+				359561762E25EB7E0014A288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3595617A2E25EB7E0014A288 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3595617B2E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests */,
+			);
+			name = CollegeBasketballDynastyIOSUITests;
+			packageProductDependencies = (
+			);
+			productName = CollegeBasketballDynastyIOSUITests;
+			productReference = 359561782E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		359561572E25EB7D0014A288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3595615E2E25EB7D0014A288 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3595616D2E25EB7E0014A288 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3595615E2E25EB7D0014A288;
+					};
+					359561772E25EB7E0014A288 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3595615E2E25EB7D0014A288;
+					};
+				};
+			};
+			buildConfigurationList = 3595615A2E25EB7D0014A288 /* Build configuration list for PBXProject "CollegeBasketballDynastyIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 359561562E25EB7D0014A288;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 359561602E25EB7D0014A288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3595615E2E25EB7D0014A288 /* CollegeBasketballDynastyIOS */,
+				3595616D2E25EB7E0014A288 /* CollegeBasketballDynastyIOSTests */,
+				359561772E25EB7E0014A288 /* CollegeBasketballDynastyIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3595615D2E25EB7D0014A288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3595616C2E25EB7E0014A288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359561762E25EB7E0014A288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3595615B2E25EB7D0014A288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3595616A2E25EB7E0014A288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359561742E25EB7E0014A288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		359561702E25EB7E0014A288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3595615E2E25EB7D0014A288 /* CollegeBasketballDynastyIOS */;
+			targetProxy = 3595616F2E25EB7E0014A288 /* PBXContainerItemProxy */;
+		};
+		3595617A2E25EB7E0014A288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3595615E2E25EB7D0014A288 /* CollegeBasketballDynastyIOS */;
+			targetProxy = 359561792E25EB7E0014A288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		359561802E25EB7E0014A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		359561812E25EB7E0014A288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		359561832E25EB7E0014A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alrott.CollegeBasketballDynastyIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		359561842E25EB7E0014A288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alrott.CollegeBasketballDynastyIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		359561862E25EB7E0014A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alrott.CollegeBasketballDynastyIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeBasketballDynastyIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollegeBasketballDynastyIOS";
+			};
+			name = Debug;
+		};
+		359561872E25EB7E0014A288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alrott.CollegeBasketballDynastyIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeBasketballDynastyIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollegeBasketballDynastyIOS";
+			};
+			name = Release;
+		};
+		359561892E25EB7E0014A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alrott.CollegeBasketballDynastyIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollegeBasketballDynastyIOS;
+			};
+			name = Debug;
+		};
+		3595618A2E25EB7E0014A288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLXGB3UDLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alrott.CollegeBasketballDynastyIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollegeBasketballDynastyIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3595615A2E25EB7D0014A288 /* Build configuration list for PBXProject "CollegeBasketballDynastyIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359561802E25EB7E0014A288 /* Debug */,
+				359561812E25EB7E0014A288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359561822E25EB7E0014A288 /* Build configuration list for PBXNativeTarget "CollegeBasketballDynastyIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359561832E25EB7E0014A288 /* Debug */,
+				359561842E25EB7E0014A288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359561852E25EB7E0014A288 /* Build configuration list for PBXNativeTarget "CollegeBasketballDynastyIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359561862E25EB7E0014A288 /* Debug */,
+				359561872E25EB7E0014A288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359561882E25EB7E0014A288 /* Build configuration list for PBXNativeTarget "CollegeBasketballDynastyIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359561892E25EB7E0014A288 /* Debug */,
+				3595618A2E25EB7E0014A288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 359561572E25EB7D0014A288 /* Project object */;
+}
