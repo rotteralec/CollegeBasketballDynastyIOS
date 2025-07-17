@@ -11,6 +11,11 @@
 import Foundation
 import SwiftData
 
+struct names: Codable {
+    let firstName: String
+    let lastName: String
+}
+
 @Model
 class Player: Codable {
     @Attribute(.unique) var id: Int
@@ -90,5 +95,9 @@ class Player: Codable {
         try container.encode(ln, forKey: .ln)
     }
     
+    
+    func generateFirstName() -> String {
+        
+    }
     
 }
