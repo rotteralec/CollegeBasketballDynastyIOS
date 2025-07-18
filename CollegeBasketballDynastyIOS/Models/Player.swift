@@ -18,21 +18,39 @@ struct name: Codable {
 
 struct PlayerSkills: Codable {
     
-    let overall: Int
-    let mid: Int
-    let post: Int
-    let threePT: Int
-    let deepThreePT: Int
-    let speed: Int
-    let strength: Int
-    let intDef: Int
-    let perDef: Int
-    let steal: Int
-    let block: Int
-    let offRB: Int
-    let defRB: Int
-    let passing: Int
-    let ftShooting: Int
+    var overall: Int
+    var mid: Int
+    var post: Int
+    var threePT: Int
+    var deepThreePT: Int
+    var speed: Int
+    var strength: Int
+    var intDef: Int
+    var perDef: Int
+    var steal: Int
+    var block: Int
+    var offRB: Int
+    var defRB: Int
+    var passing: Int
+    var ftShooting: Int
+    
+    init() {
+        self.overall = 0
+        self.mid = 0
+        self.threePT = 0
+        self.post = 0
+        self.deepThreePT = 0
+        self.speed = 0
+        self.strength = 0
+        self.intDef = 0
+        self.perDef = 0
+        self.steal = 0
+        self.block = 0
+        self.offRB = 0
+        self.defRB = 0
+        self.passing = 0
+        self.ftShooting = 0
+    }
     
     
 }
@@ -47,7 +65,7 @@ class Player: Codable {
     var ht: Int
     var wt: Int
     var ln: Int
-    var stats: Int //NEED TO CHANGE TO A STRUCT OF SKILLS LIKE IN SCHOOL
+    var stats: PlayerSkills //NEED TO CHANGE TO A STRUCT OF SKILLS LIKE IN SCHOOL
     var overall: Int
     var offense: Int
     var defense: Int
@@ -75,7 +93,7 @@ class Player: Codable {
     //calcOverall
     //reload() should be replaced by decode of Codable
     
-    init(id: Int, fName: String, lName: String, pos: String, year: Int, ht: Int, wt: Int, ln: Int, stats: Int, overall: Int, offense: Int, defense: Int) {
+    init(id: Int, fName: String, lName: String, pos: String, year: Int, ht: Int, wt: Int, ln: Int, stats: PlayerSkills, overall: Int, offense: Int, defense: Int) {
         self.id = id
         self.fName = fName
         self.lName = lName
@@ -101,7 +119,7 @@ class Player: Codable {
         let wt = try container.decode(Int.self, forKey: .wt)
         let ln = try container.decode(Int.self, forKey: .ln)
         
-        self.init(id: id, fName: fName, lName: lName, pos: pos, year: 0, ht: ht, wt: wt, ln: ln, stats: 0, overall: 0, offense: 0, defense: 0)
+        self.init(id: id, fName: fName, lName: lName, pos: pos, year: 0, ht: ht, wt: wt, ln: ln, stats: PlayerSkills(), overall: 0, offense: 0, defense: 0)
     }
     
     func encode(to encoder: Encoder) throws {
