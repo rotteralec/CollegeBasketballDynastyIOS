@@ -11,9 +11,30 @@
 import Foundation
 import SwiftData
 
-struct names: Codable {
+struct name: Codable {
     let firstName: String
     let lastName: String
+}
+
+struct PlayerSkills: Codable {
+    
+    let overall: Int
+    let mid: Int
+    let post: Int
+    let threePT: Int
+    let deepThreePT: Int
+    let speed: Int
+    let strength: Int
+    let intDef: Int
+    let perDef: Int
+    let steal: Int
+    let block: Int
+    let offRB: Int
+    let defRB: Int
+    let passing: Int
+    let ftShooting: Int
+    
+    
 }
 
 @Model
@@ -68,8 +89,7 @@ class Player: Codable {
         self.offense = offense
         self.defense = defense
     }
-    
-    
+
     required convenience init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
@@ -95,9 +115,63 @@ class Player: Codable {
         try container.encode(ln, forKey: .ln)
     }
     
-    
     func generateFirstName() -> String {
-        
+        return ""
     }
     
+}
+
+
+class CSVReader {
+    enum CSVError: Error, LocalizedError {
+        case fileNotFound(String)
+        case fileCorrupted(String)
+        case parsingError(String)
+        
+        var errorDescription: String? {
+            switch self {
+            case .fileNotFound(let filename): return "CSV file '(filename)' not found."
+            case .fileCorrupted(let filename): return "CSV file '(filename)' is courrupted."
+            case .parsingError(let message): return "Error parsing CSV data: \(message)."
+            }
+        }
+    }
+    
+    static func readNamesFromCSV(filename: String) throws -> [name] {
+        guard let url = Bundle.main.url(forResource: filename, withExtension: "csv") else {
+            throw CSVError.fileNotFound(filename)
+        }
+        do {
+            let data = try String(contentsOf: url, encoding: .utf8)
+            var newName: [name] = []
+            let rows = data.components(separatedBy: "\n")
+            
+            guard rows.count > 1 else {
+                throw CSVError.parsingError("CSV file is empty or only contains a header row")
+            }
+            //process data rows
+            for i in 1..<rows.count {
+                let row = rows[i].trimmingCharacters(in: .whitespacesAndNewlines)
+                guard !row.isEmpty else { continue } //skips empty lines
+                
+                let columns = row.components(separatedBy: ",")
+                
+                //basic validation ensuring expected number of columns
+                guard columns.count == 2 else {
+                    throw CSVError.parsingError("Row \(i+1) has incorrect number of columns")
+                }
+                
+                //Extract and convert data
+//                guard let newFirstName = String(columns[0].trimmingCharacters(in: .whitespaces)) else {
+//                    throw CSVError.parsingError("Failed to parse age at row \(i+1), column 1: \(columns[0])")
+//                }
+                let newFirstName = columns[0].trimmingCharacters(in: .whitespacesAndNewlines)
+                let newLastName = columns[1].trimmingCharacters(in: .whitespacesAndNewlines)
+                let tempName = name(firstName: newFirstName, lastName: newLastName)
+                newName.append(tempName)
+            }
+            return newName
+        }
+        
+    }
 }
