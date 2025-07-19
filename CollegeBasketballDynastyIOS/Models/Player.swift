@@ -56,7 +56,7 @@ struct PlayerSkills: Codable {
 }
 
 @Model
-class Player: Codable {
+class player: Codable {
     @Attribute(.unique) var id: Int
     var fName: String
     var lName: String
